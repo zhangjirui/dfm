@@ -1,0 +1,403 @@
+Executing tasks: [:app:extractApksForDebug] in project /Users/jirui/Projects/app-bundle-samples/DynamicFeatures
+
+
+> Configure project :app
+WARNING: The option setting 'android.injected.modules.install.list=kotlin,initialInstall,java,native,maxSdk,assets,split,url' is experimental.
+
+> Configure project :features:native
+WARNING: NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [25.0.8775105] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [25.0.8775105] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
+
+> Task :features:maxSdk:preBuild UP-TO-DATE
+> Task :features:native:preBuild UP-TO-DATE
+> Task :features:initialInstall:preBuild UP-TO-DATE
+> Task :features:kotlin:preBuild UP-TO-DATE
+> Task :features:java:preBuild UP-TO-DATE
+> Task :features:assets:preBuild UP-TO-DATE
+> Task :instant:split:preBuild UP-TO-DATE
+> Task :features:assets:preDebugBuild UP-TO-DATE
+> Task :features:kotlin:preDebugBuild UP-TO-DATE
+> Task :features:native:preDebugBuild UP-TO-DATE
+> Task :instant:split:preDebugBuild UP-TO-DATE
+> Task :features:initialInstall:preDebugBuild UP-TO-DATE
+> Task :features:java:preDebugBuild UP-TO-DATE
+> Task :features:maxSdk:preDebugBuild UP-TO-DATE
+> Task :features:initialInstall:featureDebugWriter
+> Task :instant:split:featureDebugWriter
+> Task :instant:url:preBuild UP-TO-DATE
+> Task :features:assets:featureDebugWriter
+> Task :features:maxSdk:featureDebugWriter
+> Task :features:native:featureDebugWriter
+> Task :features:java:featureDebugWriter
+> Task :features:kotlin:featureDebugWriter
+> Task :instant:url:preDebugBuild UP-TO-DATE
+> Task :features:kotlin:extractDeepLinksDebug
+> Task :features:initialInstall:extractDeepLinksDebug
+> Task :features:java:extractDeepLinksDebug
+> Task :features:maxSdk:extractDeepLinksDebug
+> Task :features:native:extractDeepLinksDebug
+> Task :features:assets:extractDeepLinksDebug
+> Task :instant:url:featureDebugWriter
+> Task :instant:split:extractDeepLinksDebug
+> Task :app:generateDebugFeatureTransitiveDeps
+> Task :features:initialInstall:compileDebugRenderscript NO-SOURCE
+> Task :instant:url:extractDeepLinksDebug
+> Task :features:assets:compileDebugRenderscript NO-SOURCE
+> Task :features:java:compileDebugRenderscript NO-SOURCE
+> Task :features:kotlin:compileDebugRenderscript NO-SOURCE
+> Task :features:native:compileDebugRenderscript NO-SOURCE
+> Task :features:maxSdk:compileDebugRenderscript NO-SOURCE
+> Task :features:native:generateDebugResValues
+> Task :features:java:generateDebugResValues
+> Task :features:assets:generateDebugResValues
+> Task :features:kotlin:generateDebugResValues
+> Task :instant:split:compileDebugRenderscript NO-SOURCE
+> Task :features:initialInstall:generateDebugResValues
+> Task :features:kotlin:generateDebugFeatureTransitiveDeps
+> Task :app:preBuild UP-TO-DATE
+> Task :features:java:generateDebugFeatureTransitiveDeps
+> Task :features:java:generateDebugResources
+> Task :instant:url:generateDebugFeatureTransitiveDeps
+> Task :features:assets:generateDebugFeatureTransitiveDeps
+> Task :features:maxSdk:generateDebugFeatureTransitiveDeps
+> Task :features:initialInstall:generateDebugFeatureTransitiveDeps
+> Task :features:kotlin:generateDebugResources
+> Task :features:native:generateDebugFeatureTransitiveDeps
+> Task :features:native:generateDebugResources
+> Task :features:assets:generateDebugResources
+> Task :features:initialInstall:generateDebugResources
+> Task :features:maxSdk:generateDebugResValues
+> Task :instant:url:compileDebugRenderscript NO-SOURCE
+> Task :features:maxSdk:generateDebugResources
+> Task :instant:url:generateDebugResValues
+> Task :instant:url:generateDebugResources
+> Task :instant:split:generateDebugFeatureTransitiveDeps
+> Task :app:checkDebugLibraries
+> Task :app:preDebugBuild
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :features:assets:mergeDebugResources
+> Task :features:assets:mergeDebugShaders
+> Task :features:assets:compileDebugShaders NO-SOURCE
+> Task :features:assets:generateDebugAssets UP-TO-DATE
+> Task :features:native:mergeDebugResources
+> Task :features:assets:mergeDebugAssets
+> Task :features:assets:processDebugJavaRes NO-SOURCE
+> Task :features:native:mergeDebugShaders
+> Task :features:native:compileDebugShaders NO-SOURCE
+> Task :features:native:generateDebugAssets UP-TO-DATE
+> Task :features:initialInstall:mergeDebugResources
+> Task :features:native:mergeDebugAssets
+> Task :features:native:compileDebugAidl NO-SOURCE
+> Task :features:java:mergeDebugResources
+> Task :features:initialInstall:mergeDebugShaders
+> Task :instant:url:mergeDebugResources
+> Task :features:initialInstall:compileDebugShaders NO-SOURCE
+> Task :features:kotlin:mergeDebugResources
+> Task :features:initialInstall:generateDebugAssets UP-TO-DATE
+> Task :features:maxSdk:mergeDebugResources
+> Task :features:java:mergeDebugShaders
+> Task :features:kotlin:mergeDebugShaders
+> Task :features:java:compileDebugShaders NO-SOURCE
+> Task :instant:split:generateDebugResValues
+> Task :instant:split:generateDebugResources
+> Task :features:kotlin:compileDebugShaders NO-SOURCE
+> Task :features:maxSdk:mergeDebugShaders
+> Task :features:initialInstall:mergeDebugAssets
+> Task :features:kotlin:generateDebugAssets UP-TO-DATE
+> Task :features:maxSdk:compileDebugShaders NO-SOURCE
+> Task :features:java:generateDebugAssets UP-TO-DATE
+> Task :features:maxSdk:generateDebugAssets UP-TO-DATE
+> Task :features:initialInstall:compileDebugAidl NO-SOURCE
+> Task :features:kotlin:mergeDebugAssets
+> Task :features:kotlin:compileDebugAidl NO-SOURCE
+> Task :features:java:mergeDebugAssets
+> Task :features:maxSdk:mergeDebugAssets
+> Task :features:java:processDebugJavaRes NO-SOURCE
+> Task :features:maxSdk:compileDebugAidl NO-SOURCE
+> Task :features:initialInstall:checkDebugAarMetadata
+> Task :features:native:checkDebugAarMetadata
+> Task :features:initialInstall:processDebugJavaRes NO-SOURCE
+> Task :features:native:processDebugJavaRes NO-SOURCE
+> Task :features:kotlin:checkDebugAarMetadata
+> Task :features:maxSdk:checkDebugAarMetadata
+> Task :features:kotlin:processDebugJavaRes NO-SOURCE
+> Task :features:maxSdk:processDebugJavaRes NO-SOURCE
+> Task :instant:split:mergeDebugResources
+> Task :instant:split:mergeDebugShaders
+> Task :instant:split:compileDebugShaders NO-SOURCE
+> Task :instant:split:generateDebugAssets UP-TO-DATE
+> Task :instant:split:mergeDebugAssets
+> Task :instant:split:compileDebugAidl NO-SOURCE
+> Task :instant:split:checkDebugAarMetadata
+> Task :instant:split:processDebugJavaRes NO-SOURCE
+> Task :features:maxSdk:checkDebugDuplicateClasses
+> Task :features:kotlin:checkDebugDuplicateClasses
+> Task :features:initialInstall:checkDebugDuplicateClasses
+> Task :features:assets:checkDebugDuplicateClasses
+> Task :features:java:checkDebugDuplicateClasses
+> Task :instant:split:checkDebugDuplicateClasses
+> Task :features:native:checkDebugDuplicateClasses
+> Task :features:initialInstall:mergeExtDexDebug
+> Task :features:assets:compileDebugAidl NO-SOURCE
+> Task :features:maxSdk:mergeExtDexDebug
+> Task :instant:split:mergeExtDexDebug
+> Task :features:java:mergeExtDexDebug
+> Task :features:java:compileDebugAidl NO-SOURCE
+> Task :features:native:mergeExtDexDebug
+> Task :features:kotlin:mergeExtDexDebug
+> Task :features:assets:mergeExtDexDebug
+> Task :features:assets:checkDebugAarMetadata
+> Task :features:initialInstall:mergeDebugJniLibFolders
+> Task :features:maxSdk:javaPreCompileDebug
+> Task :features:kotlin:javaPreCompileDebug
+> Task :features:java:javaPreCompileDebug
+> Task :features:initialInstall:javaPreCompileDebug
+> Task :features:assets:mergeDebugJniLibFolders
+> Task :features:maxSdk:mergeDebugJniLibFolders
+> Task :features:java:checkDebugAarMetadata
+> Task :instant:split:mergeDebugJniLibFolders
+> Task :features:native:javaPreCompileDebug
+> Task :features:assets:javaPreCompileDebug
+> Task :features:kotlin:mergeDebugJniLibFolders
+> Task :instant:url:mergeDebugShaders
+> Task :instant:url:compileDebugShaders NO-SOURCE
+> Task :features:java:mergeDebugJniLibFolders
+> Task :instant:url:generateDebugAssets UP-TO-DATE
+> Task :instant:split:javaPreCompileDebug
+> Task :instant:url:mergeDebugAssets
+> Task :instant:url:compileDebugAidl NO-SOURCE
+> Task :instant:url:checkDebugAarMetadata
+> Task :instant:url:processDebugJavaRes NO-SOURCE
+> Task :instant:url:javaPreCompileDebug
+> Task :instant:url:mergeDebugJniLibFolders
+> Task :instant:url:checkDebugDuplicateClasses
+> Task :instant:url:mergeExtDexDebug
+> Task :features:native:generateJsonModelDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:writeDebugModuleMetadata
+> Task :features:java:createDebugCompatibleScreenManifests
+> Task :features:assets:createDebugCompatibleScreenManifests
+> Task :features:initialInstall:createDebugCompatibleScreenManifests
+> Task :app:generateDebugFeatureMetadata
+> Task :features:kotlin:createDebugCompatibleScreenManifests
+> Task :instant:url:createDebugCompatibleScreenManifests
+> Task :instant:split:createDebugCompatibleScreenManifests
+> Task :features:maxSdk:createDebugCompatibleScreenManifests
+> Task :features:java:processDebugMainManifest
+> Task :features:initialInstall:processDebugMainManifest
+> Task :features:assets:processDebugMainManifest
+> Task :instant:split:processDebugMainManifest
+> Task :features:kotlin:processDebugMainManifest
+> Task :features:java:processDebugManifest
+> Task :features:maxSdk:processDebugMainManifest
+> Task :instant:split:processDebugManifest
+> Task :features:initialInstall:processDebugManifest
+> Task :features:kotlin:processDebugManifest
+> Task :features:java:processApplicationManifestDebugForBundle
+> Task :instant:split:processApplicationManifestDebugForBundle
+> Task :features:assets:processDebugManifest
+> Task :features:kotlin:processApplicationManifestDebugForBundle
+> Task :features:maxSdk:processDebugManifest
+> Task :features:initialInstall:processApplicationManifestDebugForBundle
+> Task :features:assets:processApplicationManifestDebugForBundle
+> Task :instant:split:processManifestDebugForFeature
+> Task :features:java:processManifestDebugForFeature
+> Task :features:kotlin:processManifestDebugForFeature
+> Task :features:maxSdk:processApplicationManifestDebugForBundle
+> Task :features:initialInstall:processManifestDebugForFeature
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :features:maxSdk:processManifestDebugForFeature
+> Task :app:mergeDebugAssets
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :instant:url:processDebugMainManifest
+> Task :features:initialInstall:generateDebugBuildConfig
+> Task :app:generateDebugBuildConfig
+> Task :features:assets:generateDebugBuildConfig
+> Task :instant:url:processDebugManifest
+> Task :features:java:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata
+> Task :instant:url:processApplicationManifestDebugForBundle
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :features:initialInstall:processDebugManifestForPackage
+> Task :features:assets:processDebugManifestForPackage
+> Task :instant:url:processManifestDebugForFeature
+> Task :features:java:processDebugManifestForPackage
+> Task :app:desugarDebugFileDependencies
+> Task :app:javaPreCompileDebug
+> Task :features:initialInstall:mergeDebugNativeLibs NO-SOURCE
+> Task :app:mergeDebugJniLibFolders
+> Task :features:assets:mergeDebugNativeLibs NO-SOURCE
+> Task :features:assets:stripDebugDebugSymbols NO-SOURCE
+> Task :features:initialInstall:stripDebugDebugSymbols NO-SOURCE
+> Task :features:assets:processManifestDebugForFeature
+> Task :app:checkDebugDuplicateClasses
+> Task :features:java:mergeDebugNativeLibs NO-SOURCE
+> Task :features:java:stripDebugDebugSymbols NO-SOURCE
+> Task :features:kotlin:generateDebugBuildConfig
+> Task :features:maxSdk:generateDebugBuildConfig
+> Task :features:kotlin:mergeDebugNativeLibs NO-SOURCE
+> Task :features:kotlin:stripDebugDebugSymbols NO-SOURCE
+> Task :features:maxSdk:processDebugManifestForPackage
+> Task :features:maxSdk:mergeDebugNativeLibs NO-SOURCE
+> Task :features:maxSdk:stripDebugDebugSymbols NO-SOURCE
+> Task :instant:split:generateDebugBuildConfig
+> Task :features:kotlin:processDebugManifestForPackage
+> Task :instant:url:generateDebugBuildConfig
+> Task :features:assets:mergeDebugJavaResource
+> Task :instant:split:processDebugManifestForPackage
+> Task :instant:url:mergeDebugNativeLibs NO-SOURCE
+> Task :instant:url:stripDebugDebugSymbols NO-SOURCE
+> Task :instant:split:mergeDebugNativeLibs NO-SOURCE
+> Task :instant:split:stripDebugDebugSymbols NO-SOURCE
+> Task :instant:url:processDebugManifestForPackage
+> Task :features:java:mergeDebugJavaResource
+> Task :app:parseDebugIntegrityConfig UP-TO-DATE
+> Task :app:validateSigningDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexDebug
+
+> Task :features:native:externalNativeBuildDebug
+Build hello-jni_armeabi-v7a
+ninja: Entering directory `/Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/.cxx/cmake/debug/armeabi-v7a'
+[1/2] Building C object CMakeFiles/hello-jni.dir/hello-jni.c.o
+[2/2] Linking C shared library /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-jni.so
+Build hello-jni_arm64-v8a
+ninja: Entering directory `/Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building C object CMakeFiles/hello-jni.dir/hello-jni.c.o
+[2/2] Linking C shared library /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/build/intermediates/cmake/debug/obj/arm64-v8a/libhello-jni.so
+Build hello-jni_x86
+ninja: Entering directory `/Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/.cxx/cmake/debug/x86'
+[1/2] Building C object CMakeFiles/hello-jni.dir/hello-jni.c.o
+[2/2] Linking C shared library /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/build/intermediates/cmake/debug/obj/x86/libhello-jni.so
+Build hello-jni_x86_64
+ninja: Entering directory `/Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/.cxx/cmake/debug/x86_64'
+[1/2] Building C object CMakeFiles/hello-jni.dir/hello-jni.c.o
+[2/2] Linking C shared library /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/features/native/build/intermediates/cmake/debug/obj/x86_64/libhello-jni.so
+
+> Task :features:native:createDebugCompatibleScreenManifests
+> Task :features:native:processDebugMainManifest
+> Task :features:native:processDebugManifest
+> Task :features:native:processApplicationManifestDebugForBundle
+> Task :features:native:generateDebugBuildConfig
+> Task :features:native:mergeDebugJniLibFolders
+> Task :features:native:processDebugManifestForPackage
+> Task :features:native:processManifestDebugForFeature
+> Task :features:native:mergeDebugNativeLibs
+> Task :features:native:stripDebugDebugSymbols
+
+> Task :app:processDebugMainManifest
+/Users/jirui/Projects/app-bundle-samples/DynamicFeatures/app/src/main/AndroidManifest.xml Warning:
+	Package name 'com.google.android.samples.dynamicfeatures' used in: AndroidManifest.xml, :features:kotlin, :features:initialInstall, :features:java, :features:native, :features:maxSdk, :features:assets, :instant:split, :instant:url.
+
+> Task :app:processDebugManifest
+> Task :app:processApplicationManifestDebugForBundle
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :features:assets:bundleDebugResources
+> Task :features:java:bundleDebugResources
+> Task :features:native:bundleDebugResources
+> Task :features:kotlin:bundleDebugResources
+> Task :features:maxSdk:bundleDebugResources
+> Task :features:assets:processDebugResources
+> Task :features:initialInstall:processDebugResources
+> Task :features:initialInstall:bundleDebugResources
+> Task :features:java:processDebugResources
+> Task :features:kotlin:processDebugResources
+> Task :features:maxSdk:processDebugResources
+> Task :features:native:processDebugResources
+> Task :instant:url:processDebugResources
+> Task :instant:split:processDebugResources
+> Task :instant:url:bundleDebugResources
+> Task :instant:split:bundleDebugResources
+
+> Task :app:compileDebugKotlin
+w: /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/app/src/main/java/com/google/android/samples/dynamicfeatures/MainActivity.kt: (237, 22): Unsafe use of a nullable receiver of type Array<String!>?
+w: /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/app/src/main/java/com/google/android/samples/dynamicfeatures/MainActivity.kt: (244, 22): Unsafe use of a nullable receiver of type Array<String!>?
+w: /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/app/src/main/java/com/google/android/samples/dynamicfeatures/MainActivity.kt: (254, 22): Unsafe use of a nullable receiver of type Array<String!>?
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:bundleDebugResources
+> Task :app:bundleDebugClasses
+> Task :app:mergeProjectDexDebug
+> Task :app:buildDebugPreBundle
+> Task :features:assets:compileDebugJavaWithJavac
+> Task :features:assets:dexBuilderDebug
+> Task :features:assets:mergeProjectDexDebug
+> Task :features:java:compileDebugJavaWithJavac
+> Task :features:java:dexBuilderDebug
+> Task :features:java:mergeProjectDexDebug
+> Task :features:java:mergeLibDexDebug
+> Task :features:assets:mergeLibDexDebug
+> Task :features:java:buildDebugPreBundle
+> Task :features:assets:buildDebugPreBundle
+> Task :features:kotlin:compileDebugKotlin
+> Task :features:initialInstall:compileDebugKotlin
+> Task :features:initialInstall:mergeDebugJavaResource
+> Task :features:initialInstall:mergeLibDexDebug
+> Task :features:kotlin:compileDebugJavaWithJavac
+> Task :features:kotlin:dexBuilderDebug
+> Task :features:kotlin:mergeDebugJavaResource
+> Task :features:kotlin:mergeLibDexDebug
+> Task :features:kotlin:mergeProjectDexDebug
+> Task :features:kotlin:buildDebugPreBundle
+> Task :features:maxSdk:compileDebugKotlin
+> Task :features:initialInstall:compileDebugJavaWithJavac
+> Task :features:maxSdk:mergeLibDexDebug
+> Task :features:maxSdk:mergeDebugJavaResource
+> Task :features:initialInstall:dexBuilderDebug
+> Task :features:initialInstall:mergeProjectDexDebug
+> Task :features:initialInstall:buildDebugPreBundle
+> Task :features:maxSdk:compileDebugJavaWithJavac
+> Task :features:maxSdk:dexBuilderDebug
+> Task :instant:url:compileDebugKotlin
+> Task :instant:split:compileDebugKotlin
+> Task :features:maxSdk:mergeProjectDexDebug
+> Task :features:native:compileDebugKotlin
+> Task :features:maxSdk:buildDebugPreBundle
+> Task :instant:url:mergeLibDexDebug
+> Task :instant:split:compileDebugJavaWithJavac
+> Task :features:native:compileDebugJavaWithJavac
+> Task :instant:split:dexBuilderDebug
+> Task :instant:split:mergeLibDexDebug
+> Task :instant:url:compileDebugJavaWithJavac
+> Task :instant:split:mergeDebugJavaResource
+> Task :features:native:dexBuilderDebug
+> Task :instant:split:mergeProjectDexDebug
+> Task :features:native:mergeLibDexDebug
+> Task :instant:split:buildDebugPreBundle
+> Task :instant:url:dexBuilderDebug
+> Task :features:native:mergeDebugJavaResource
+> Task :instant:url:mergeDebugJavaResource
+> Task :features:native:mergeProjectDexDebug
+> Task :features:native:buildDebugPreBundle
+> Task :instant:url:mergeProjectDexDebug
+> Task :instant:url:buildDebugPreBundle
+> Task :app:packageDebugBundle
+> Task :app:makeApkFromBundleForDebug
+
+> Task :app:extractApksForDebug
+The APKs have been extracted in the directory: /Users/jirui/Projects/app-bundle-samples/DynamicFeatures/app/build/intermediates/extracted_apks/debug
+
+BUILD SUCCESSFUL in 11s
+264 actionable tasks: 263 executed, 1 up-to-date
+
+Build Analyzer results available

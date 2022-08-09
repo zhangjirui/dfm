@@ -1,0 +1,75 @@
+google demo 
+build deploy
+- Default APK
+- APK from app bundle (select all dynamic features to deploy)
+
+产生的效果是：
+显示已安装所有的dynamic module
+但是，无需执行 SplitCompat.install(it) 就能访问所有的 dynamic assets中的文件
+
+
+   /** Display assets loaded from the assets feature module. */
+    private fun displayAssets() {
+        val allFiles = this.assets.list("")
+        for (file in allFiles) {
+            Log.d("Jerry", "fileName: ${file}")
+        }
+
+        val allFiles2 = this.also {
+            SplitCompat.install(it)
+        }.assets.list("")
+        for (file in allFiles2) {
+            Log.d("Jerry", "fileName2: ${file}")
+        }
+
+        // Get the asset manager with a refreshed context, to access content of newly installed apk.
+        val assetManager = createPackageContext(packageName, 0).also {
+            SplitCompat.install(it)
+        }.assets
+
+        val allFiles1 = assetManager.list("")
+        for (file in allFiles1) {
+            Log.d("Jerry", "fileName1: ${file}")
+        }
+
+        // Now treat it like any other asset file.
+        val assetsStream = assetManager.open("assets.txt")
+        val assetContent = assetsStream.bufferedReader()
+                .use {
+                    it.readText()
+                }
+
+        AlertDialog.Builder(this)
+                .setTitle(getString(R.string.asset_content))
+                .setMessage(assetContent)
+                .show()
+    }
+
+
+按上述设置，测试 访问dfm中的 activity，必须按demo中的代码，指定activity的包的详细路径。(这个好像是正常操作，都要这样做的)
+但是，如果把dfm中activity中的SplitCompat.installActivity(this)取消掉，也能正常访问。
+
+
+所以，综合上面的测试，上面的设置，相当于把dfm 访问时的特殊代码配置都不需要了。
+
+
+经测试，上面的现象，和设置dfm为 install-time，效果一致。包括访问assets中资源 和 activity
+
+或许这就是为什么得出结论：无需更改
+
+
+
+问题：为什么不直接使用 install-time
+因为这样并不能缩减包的大小
+
+
+TODO:
+https://developer.android.com/guide/app-bundle#size_restrictions
+这里提到要设置  enableSplit = true 
+
+请务必为每种类型的配置 APK 设置 enableSplit = true 以启用所有配置 APK。这样可以确保用户只下载在其设备上运行您的应用所需的代码和资源。
+
+
+
+
+
